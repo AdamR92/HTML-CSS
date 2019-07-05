@@ -1,0 +1,28 @@
+.first {
+	background-color:blue;
+	background-color:rgba(0, 0, 0, .4);
+}
+
+.second {
+	background-color:red;
+	opacity: .4;
+}
+
+.gradient {
+background: rgba(115,195,222,1);
+background: -moz-linear-gradient(left, rgba(115,195,222,1) 0%, rgba(24,164,195,0.95) 50%, rgba(124,200,222,0.92) 77%, rgba(124,200,222,0.89) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(115,195,222,1)), color-stop(50%, rgba(24,164,195,0.95)), color-stop(77%, rgba(124,200,222,0.92)), color-stop(100%, rgba(124,200,222,0.89)));
+background: -webkit-linear-gradient(left, rgba(115,195,222,1) 0%, rgba(24,164,195,0.95) 50%, rgba(124,200,222,0.92) 77%, rgba(124,200,222,0.89) 100%);
+background: -o-linear-gradient(left, rgba(115,195,222,1) 0%, rgba(24,164,195,0.95) 50%, rgba(124,200,222,0.92) 77%, rgba(124,200,222,0.89) 100%);
+background: -ms-linear-gradient(left, rgba(115,195,222,1) 0%, rgba(24,164,195,0.95) 50%, rgba(124,200,222,0.92) 77%, rgba(124,200,222,0.89) 100%);
+background: linear-gradient(to right, rgba(115,195,222,1) 0%, rgba(24,164,195,0.95) 50%, rgba(124,200,222,0.92) 77%, rgba(124,200,222,0.89) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73c3de', endColorstr='#7cc8de', GradientType=1 );
+}
+
+.image {
+	background-image:url(images/blueberry-water-drop-close-up.jpg);
+	width:100%;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center;
+}

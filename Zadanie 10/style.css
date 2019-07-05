@@ -1,0 +1,24 @@
+h1 {
+	font-family:Verdana;
+	background-color:#ACC4CE;
+	color:white;
+	font-size:20px;
+	text-shadow:2px 2px 2px #878787;
+}
+
+h2 {
+	font-family:Arial;
+	color:#395075;
+	letter-spacing:10px;
+}
+p {
+	font-family:sans-serif;
+	color:grey;
+	font-size:14px;
+	line-height:20px;
+	text-indent:20px;
+}
+
+div {
+	width:500px;
+}

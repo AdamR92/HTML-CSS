@@ -1,0 +1,43 @@
+.popup {
+	display:block;
+	width:400px;
+	height:100px;
+	background-color:beige;
+	box-shadow:0px 0px 5px 5px rgba(0,0,0,0.3);
+	text-align:center;
+	font-size:50px;
+	padding-top:20px;
+	font-weight:700;
+	border-radius:20px;
+}
+
+.ellipse {
+display:inline-block;
+width:180px;
+height:100px;
+background-color:lime;
+border-radius:70%;
+}
+
+.circle {
+display:inline-block;
+width:100px;
+height:100px;
+background-color:lime;
+border-radius:70%;
+}
+
+.lime {
+display:inline-block;
+width:100px;
+height:100px;	
+background-color:lime;
+border-top-right-radius: 50%;
+border-bottom-left-radius: 50%;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}

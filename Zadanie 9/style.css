@@ -1,0 +1,43 @@
+span {
+	color:green;
+}
+
+#span2 {
+	color:orange;
+}
+
+#Pierwszy {
+	color:blue;
+}
+
+#Drugi {
+	color:orange;
+}
+#Trzeci {
+	color:violet;
+}
+#Paragraf1 {
+	background-color: #6565ee;
+}
+#Paragraf2 {
+	background-color: rgb(128, 128, 128);
+}
+#Paragraf3 {
+	background-color: hsl(47, 40%, 30%);
+}
+
+.container {
+	background-color: rgb(196, 64, 64);
+	width:200px;
+}
+
+.first {
+	background-color: rgb(216, 84, 84);
+	width: 50%;
+}
+
+.second {
+	background-color: rgb(255, 224, 17);
+	width: 10em;
+}
+	

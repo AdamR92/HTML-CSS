@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+	<link rel="Stylesheet" href="style.css">
+</head>
+<body>
+<form class="contactForm"> 
+<label><b>Your name:</b><br>
+<input type="text" name="name" placeholder="Your name">
+</label><br>
+<label><b>Your E-mail Address:</b><br>
+<input type="email" name="email" placeholder="Your e-mail">
+</label><br>
+<label><b>Your message:<b><br>
+<textarea cols="50" rows="10" placeholder="Please describe your question or comment"></textarea>
+</label><br>
+<label>
+<input type="submit" name="Wyślij" value="Send">
+</label>
+</form><br><br>
+<h1> Car rental </h1>
+<form class="rentCarForm">
+<fieldset>
+<legend>Choose car class</legend>
+<div>
+<input type="radio" id="mini" name="car" value="mini">
+<label for="mini">mini</label>
+</div><br>
+<div>
+<input type="radio" id="economy" name="car" value="economy">
+<label for="economy">economy</label>
+</div><br>
+<div>
+<input type="radio" id="compact" name="car" value="compact">
+<label for="compact">compact</label>
+</div><br>
+<div>
+<input type="radio" id="SUV" name="car" value="SUV">
+<label for="SUV">SUV</label>
+</div><br>
+<div>
+<input type="radio" id="VAN" name="car" value="VAN">
+<label for="VAN">VAN</label>
+</div>
+</fieldset>
+<fieldset>
+<legend>Choose optional equipment</legend>
+<div>
+<input type="checkbox" id="child seat" name="equipment" value="child seat">
+<label for="child seat">child seat</label>
+</div><br>
+<div>
+<input type="checkbox" id="GPS" name="equipment" value="GPS" checked>
+<label for="GPS">GPS</label>
+</div><br>
+<div>
+<input type="checkbox" id="DVD player" name="equipment" value="DVD player">
+<label for="DVD player">DVD player</label>
+</div>
+</fieldset><br>
+<label>Rental start date
+<input type="date" name=date" placeholder="rrrr-mm-dd">
+</label><br>
+<label>Number of days
+<input type="number" name="number">
+</label><br>
+<label>Your password
+<input type="password" name="password">
+</label><br>
+<label>
+<input type="submit" name="Zamów" value="Order now!"
+</label>  
+</form>
+</body>
+</html>
